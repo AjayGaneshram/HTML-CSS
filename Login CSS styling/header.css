@@ -1,0 +1,36 @@
+.layout div{
+
+	background-color: rgb(185, 95, 95);
+	color:black;
+	display:grid;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	font-size: 2rem;
+	
+}
+.layout{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 10vh 80vh 10vh;
+	grid-template-areas: 
+	"h h h h h"
+	"sb1 main main main sb2"
+	"f f f f f " ;
+}
+.header{
+	grid-area: h ;
+}
+.sidebar1{
+	grid-area: sb1;
+}
+.sidebar2{
+	grid-area: sb2;
+}
+.maincontent{
+	grid-area: main;
+}
+.footer{
+	grid-area: f;
+}

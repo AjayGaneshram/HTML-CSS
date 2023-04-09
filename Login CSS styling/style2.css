@@ -1,0 +1,82 @@
+.box
+{
+	height:100px;
+    background-color: rgb(255, 0, 30);
+	border:2px solid black;
+	width:250px;
+	
+
+}
+
+.outclass{
+	background-color: bisque;
+	min-height: 400px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+} 
+.outclass .box{
+width: 150px;
+height: 150px;
+background-color: blue;
+border: 2px solid white;
+}
+.box1{
+	align-self: flex-start;
+}
+
+.box4{
+	/* box4 will take remainning  whole space after box 4 */
+	/* flex grow will get remainning space .. you can give flex grow for two or more box..it will equally divide the remaining space */
+	/* flex basis will maintain the real width: ; */
+	/* flex shrink makes the box size same while minimizing the browser */
+	flex:1
+}
+.col{
+	/* display: flex; */
+}
+/* p{
+	padding: 10px;
+} */
+.para1{
+	background-color: blueviolet;
+	/* flex:1; */
+}
+
+
+.para2{
+	background-color: green;
+	/* flex:1; */
+}
+
+
+.para3
+{
+	background-color: gold;
+	flex:1;
+}
+
+
+/* @media (min-width:801px) 
+{
+	.col p
+	{
+		width:30%;
+		float:left;
+		padding: 10px;
+	}
+} */
+
+.boxcolor
+{
+	position:absolute;
+	margin-top:250px;
+	width:100px;
+	height:100px;
+	background-color: aqua;
+	/* border:2px solid black; */
+	background: linear-gradient(to left,green,blue,red);
+}

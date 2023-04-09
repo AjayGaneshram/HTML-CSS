@@ -1,0 +1,74 @@
+body{
+	background-repeat: no-repeat;
+	background-position-x: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: aliceblue;
+	background-color: black;
+	
+}
+.col p{
+	width:30%;
+	float:left;
+}
+.yellowbox{
+	width:200px;
+	height:100px;
+	background-color: yellowgreen;
+	position:relative;
+}
+.orangebox{
+	width:200px;
+	height:150px;
+	background-color: orange;
+	position:absolute;
+	left:200px;
+}
+
+.regform{
+	width: 500px;
+	/* height: 200px; */
+	background-image: url('OIP.jpg');
+	background-color: rgba(255, 255, 245, 0.1);
+	margin: 50px auto ;
+	padding: 10px 20px 30px;
+	font-size: 16px;
+	border-radius: 10px;
+	overflow: scroll;
+	
+}
+.regform h1{
+	text-decoration: underline;
+	text-align: center;
+}
+.regform .textlabel{
+	display:block;
+}
+.input input{
+ width: 100%;	
+ font-size: 1.2em;
+ border:1px solid green;
+ box-shadow: 2px;
+ border-radius: 10px;
+ padding: 10px 10px;
+ box-sizing: border-box;
+ margin: 5px 0px 15px 0px;
+}
+.btn{
+	text-align: center;
+}
+button{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin-top: 20px;
+	border-radius: 8px;
+	border:2px solid white;
+	background-color: green; 	
+}
+.radio input{
+	accent-color: green;
+	transform: scale(1.5);
+}
+input:focus{
+	background-color: aquamarine;
+}
